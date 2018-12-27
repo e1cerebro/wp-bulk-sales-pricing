@@ -1,0 +1,111 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Acme');
+.sales-form-section {
+    background-color: white;
+    margin-top: 20px;
+}
+
+div.col-left {
+    background-color: white;
+    margin: 0 10px auto;
+    width: 417px;
+    height: 55vh;
+    padding: 18px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 2px 2px 3px rgba(171, 171, 171, 0.75);
+}
+
+div.col-right {
+    font-family: 'Abel', sans-serif;
+    background-color: #ffdcaa;
+    padding: 18px;
+    margin: 0 10px auto;
+    width: 100%;
+    height: 55vh;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 2px 0px rgba(105, 105, 105, 0.75);
+}
+
+section.bsp-instruction-header {
+    font-family: 'Acme', sans-serif;
+    border-bottom: 2px solid #fff;
+    font-size: 20px;
+}
+
+section.bsp-form-header {
+    font-family: 'Acme', sans-serif;
+    border-bottom: 2px solid #000;
+    font-size: 20px;
+}
+
+section.bsp-instruction-body {
+    font-size: 16px;
+}
+
+section.bsp-instruction-body li {
+    margin-bottom: 12px;
+}
+
+section.bsp-instruction-body ul {
+    margin-top: 14px;
+}
+
+div.form-control {
+    margin: 10px 10px;
+}
+
+div.form-control label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 15px;
+    font-weight: 415;
+}
+
+#output {
+    padding: 20px;
+    background: #dadada;
+    display: none;
+}
+
+.sales-form-section select,
+.sales-form-section input {
+    width: 300px;
+}
+
+.sales-form-section input[type="submit"] {
+    margin-left: 10px;
+}
+
+.sales-form-section p.submit {
+    margin-top: 3px;
+}
+
+.sales-form-section .submit {
+    margin: -18px 0;
+}
+
+.sales-form-section #remove-sales-price {
+    color: #ffffff;
+    border-color: #b36f6f;
+    background: #dc3232;
+    box-shadow: 0 1px 0 #d6c9c9;
+}
+
+.sales-form-section .hide {
+    display: none;
+}
+
+.sales-form-section .show {
+    display: block;
+}
+
+.container {
+    display: flex;
+    /* or inline-flex */
+}
